@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal-Portfolio</title>
+    <link rel="stylesheet" href="bootstrap.css">
+    <link rel="shortcut icon" href="image01.png" type="image/x-icon">
+    <script src="https://kit.fontawesome.com/74a4841d05.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <!-- ------------------------------------------------------------------------------HEADER---------------------------------------------------------------------- -->
+    <header>
+        <div id="header">
+            <div class="container">
+                <nav>
+                    <div class="logo">
+                        <img src="Logo.JPG">
+                    </div>
+                    <ul class="ol" id="sidebar">
+                        <li><a href="#header">Home</a></li>
+                        <li><a href="#aabout">About</a></li>
+                        <li><a href="#services">Recent Projects</a></li>
+                        <li><a href="#Contact">Contact</a></li>
+                        <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+                    </ul>
+                    <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+                </nav>
+            </div>
+        </div>
+    </header>
+    <main>
+        <!-- ------------------------------------------------------------------------------HEADING---------------------------------------------------------------------- -->
+        <section>
+            <div class="heading">
+                <p class="web">Web Developer/App Developer</p>
+                <p>HI, I'M <span>Khizer</span> Malik <br>From PAKISTAN</p>
+            </div>
+        </section>
+        <section>
+            <!-- ------------------------------------------------------------------------------ABOUT---------------------------------------------------------------------- -->
+            <div class="about" id="aabout">
+                <div class="col-1">
+                    <img src="background.jpg">
+                </div>
+                <div class="col-2">
+                    <h1>About Me</h1>
+                    <p class="p">I'm currently studying in FSC-II in Computer Science.
+                        Have great development skills, will be doing my best for designing
+                        great websites.I also have good knowledge about Digital Marketing.
+                    </p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                        <p class="tab-links" onclick="opentab('certification')">Certification</p>
+                    </div>
+                    <!------------------------------------------------------------------TAB-CONTENT---------------------------------------------------------------------- -->
+                    <div class="tab-content active-tab" id="skills">
+                        <ul>
+                            <li><span>Html, Css & Java</span><br>Front-End Development</li><br>
+                            <li><span>SEO & Marketing</span><br>Digital Marketing</li><br>
+                            <li><span>Wordpress</span><br>Designing websites using wordpress and different plugins</li><br>
+                        </ul>
+                    </div>
+                    <div class="tab-content" id="education">
+                        <ul>
+                            <li><span>2019-2020</span><br>Matriculation</li><br>
+                            <li><span>Currently In</span><br>FSC - II</li><br>
+                        </ul>
+                    </div>
+                    <div class="tab-content" id="certification">
+                        <ul>
+                            <li><span>Digital Marketing</span><br>Fundamentals Of Digital Marketing By Google</li><br>
+                            <li><span>Crash Course On Python</span><br>Python Development By Google</li><br>
+                            <li><span>Become A Freelancer</span><br>By Udemy</li><br>
+                            <!-- <li><span>Web Development</span><br>By CWH</li><br> -->
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- ------------------------------------------------------------------------------SERVICES---------------------------------------------------------------------- -->
+        <section>
+            <div id="services">
+                <div class="container">
+                    <h1 class="service">My Services</h1>
+                    <div class="services-list">
+                        <div class="elements">
+                            <i class="fa-solid fa-code"></i>
+                            <h2 style="margin-bottom:1rem;">Web Designs</h2>
+                            <p>I can create custom solutions that meet the unique needs of clients. Using HTML, CSS, JAVASCRIPT and other Front-End Languages and Technology.</p>
+                            <a href="portfolio/image0.jpeg">Learn More</a>
+                        </div>
+                        <div class="elements">
+                            <i class="fa-solid fa-chart-simple"></i>
+                            <h2 style="margin-bottom:1rem;">Digital Marketing</h2>
+                            <p> I am passionate about creating and implementing effective digital marketing strategies that drive business growth and success.</p>
+                            <a href="portfolio/Unknown.pdf">Learn More</a>
+                        </div>
+                        <div class="elements">
+                            <i class="fa-brands fa-wordpress"></i>
+                            <h2 style="margin-bottom:1rem;">Wordpress</h2>
+                            <p> I can build custom themes and plugins, optimize website speed and performance, and ensure the website is SEO-friendly.
+                            </p>
+                            <a href="portfolio/cv.pdf">Learn More</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            </div>
+            </div>
+        </section>
+        <!--------------------------------------------------------------------------------MY WORK---------------------------------------------------------------------- -->
+        <section id="my-work">
+            <h1 class="service">MY WORK</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="work-1.png">
+                    <div class="description">
+                        <h2>Pizza Palace Website</h2>
+                        <p>Pizza restaurant site includes menu and other info about the resto  </p>
+                        <a href="project1.html"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="pro.PNG">
+                    <div class="description">
+                        <h2>Airpods Ad Design</h2>
+                        <p>This includes all info about the airpods and its link for purchasing.  </p>
+<a href="project1.html"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="work-3.png">
+                    <div class="description">
+                        <h2>Pizza Palace Website</h2>
+                        <p>Pizza restaurant site includes menu and other info about the resto  </p>
+<a href="project1.html"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="project1.html" class="an"><button class="btn">See More   <i class="fa-solid fa-magnifying-glass"></i></button></a>
+        </section>
+        <section id="Contact">
+            <h1 class="service">Contact Me</h1>
+            <div class="row">
+                <div class="contact-left">
+                    <p><i class="fa-solid fa-envelope"></i> Email: ah315170@gmail.com</p>
+                    <p><i class="fa-solid fa-square-phone"></i> No:  03356397228.</p>
+                    <div class="icons">
+                        <a href=""><i class="fa-brands fa-facebook"></i></a>
+                        <a href=""><i class="fa-brands fa-twitter"></i></a>
+                        <a href=""><i class="fa-brands fa-linkedin"></i></a>
+                        <a href=""><i class="fa-brands fa-instagram"></i></a>
+                    </div>
+                  <a href="portfolio/cv.pdf" download="Cv" class="cv"><button class="btn2"><i class="fa-solid fa-download"></i> Download CV</button></a>
+                </div>
+                <div class="contact-right">
+                    <form action="">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your Email" id="email">
+                    <textarea name="message" id="message" placeholder="Enter Your Message!
+                    " cols="16" rows="6"></textarea>
+                    <button type="submit" class="btn2" onclick="send()" id="sent">Submit</button>
+                    <p>Send <i class="fa-solid fa-circle-check"></i></p>
+                </form>
+                </div>
+            </div>
+        </section>  
+    </main>
+<footer>
+    <p>Copyright&copy; Khizer Malik </p>
+</footer>
+    <!-- ------------------------------------------------------------------------------JAVA---------------------------------------------------------------------- -->
+    <script>
+        var tablinks = document.getElementsByClassName('tab-links');
+        var tabcontents = document.getElementsByClassName('tab-content');
+        function opentab(tabname) {
+            for (tablink of tablinks) {
+                tablink.classList.remove('active-link');
+            }
+            for (tabcontent of tabcontents) {
+                tabcontent.classList.remove('active-tab');
+            }
+            event.currentTarget.classList.add('active-link');
+            document.getElementById(tabname).classList.add('active-tab');
+        }
+    </script>
+    <!-- --------------------------------------------------------------------------------For Send--------------------------------------------------------------------------- -->
+    <!-- <script>
+        var sendm = document.getElementById("sent");
+        function send(){
+            sendm.style.display = "inline";
+        }
+    </script> -->
+    <!-- --------------------------------------------------------------------------------For sidebar---------------------------------------------------------------------------- -->
+    <script>
+        var sidemenu= document.getElementById("sidebar");
+        function openmenu(){
+            sidemenu.style.right = "0";
+        }
+        function closemenu(){
+            sidemenu.style.right = "-300px";
+        }
+    </script>
+</body>
+
+
+</html>
